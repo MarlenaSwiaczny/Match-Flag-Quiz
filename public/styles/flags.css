@@ -1,0 +1,125 @@
+body {
+  background-image: url(../images/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 60%;
+  height: 500px;
+  margin: 5% auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding-top: 10px;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+  font-size: 4rem;
+}
+
+h3 {
+  margin: 0;
+}
+
+.answer-container {
+  width: 100%;
+  text-align: center;
+}
+
+/*input {
+  text-align: center;
+  width: 30%;
+  margin: 10px auto;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+*/
+.flag {
+  display: flex;
+  flex-direction: row;
+  font-size: 5rem;
+}
+
+button {
+  font-size: 10rem;
+  display: flex;
+  justify-content: space-around;
+  padding: 0 30px;
+  margin-bottom: 50px;
+  background-color: white;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  
+}
+
+.horizontal-container {
+  display: flex;
+  
+  justify-content: space-between;
+}
+
+button:hover {
+  background-color: #f88783;
+}
+
+#result {
+  text-align: center;
+  font-size: 24px;
+}
+
+.checkmark {
+  color: transparent;
+  animation: checkmark 0.5s ease;
+}
+
+.cross {
+  color: transparent;
+  animation: cross 0.5s ease;
+}
+
+@keyframes checkmark {
+  0% {
+    color: transparent;
+  }
+  100% {
+    color: green;
+  }
+}
+
+@keyframes cross {
+  0% {
+    color: transparent;
+  }
+  100% {
+    color: red;
+  }
+}
+
+.restart-button {
+  display: block;
+  background-color: #f88783;
+  color: white;
+  width: 40%;
+  padding: 15px 10px;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 20px;
+  margin-bottom: 100px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, color 0.3s;
+}
+
