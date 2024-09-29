@@ -1,4 +1,4 @@
-# MATCH COUNTRY QUIZ
+# MATCH FLAG QUIZ
 
 ## General info
 This is a quiz app where a country name is displayed, and you must select the correct country flag from four given options. For each correct answer, you earn a point. The game ends as soon as you make a mistake.
